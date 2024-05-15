@@ -1,0 +1,150 @@
+@media print,
+(max-width: 1187px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 40px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block,
+    .block.small_m
+    {
+        margin-bottom: 100px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 32px;
+    }
+
+
+    header .menu_item > a:before
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+
+    /*----------
+        Apps
+    ----------*/
+    .apps .data
+    {
+        width: calc(100% - 400px);
+    }
+
+
+    .apps .items > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .apps .download .qr_code
+    {
+        width: 185px;
+        padding-right: 25px;
+    }
+
+
+    .apps .download .places
+    {
+        width: calc(100% - 209px);
+        padding-top: 20px;
+    }
+
+
+    .apps .download .places .title
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .apps .image
+    {
+        width: 360px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .content
+    {
+        width: calc(100% - 370px);
+        padding-right: 50px;
+    }
+
+
+    .article_info aside
+    {
+        width: 320px;
+    }
+
+
+    .article_info .share a + a
+    {
+        margin-left: 12px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .col
+    {
+        margin-right: 0;
+    }
+
+
+
+    footer .menu
+    {
+        width: auto;
+    }
+}

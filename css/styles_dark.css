@@ -1,0 +1,19 @@
+/*-------------------
+    Global styles
+-------------------*/
+:root
+{
+    --bg: #010107;
+    --text_color: #fff;
+}
+
+
+
+/*------------
+    Header
+------------*/
+header
+{
+    border-top-color: rgba(255, 255, 255, .20);
+    background: rgba(255, 255, 255, .01);
+}

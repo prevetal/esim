@@ -1,0 +1,60 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block,
+    .block.small_m
+    {
+        margin-bottom: 150px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 50px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 25px;
+    }
+
+
+    * + .page_title
+    {
+        margin-top: 15px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    footer .cont:before
+    {
+        width: calc(100% - 40px);
+    }
+
+
+    footer .menu
+    {
+        width: calc((100% - 214px) / 3);
+    }
+}
