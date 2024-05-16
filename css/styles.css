@@ -1161,6 +1161,16 @@ header .get_started_btn
 }
 
 
+.articles .article
+{
+    display: block;
+
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
 .articles .article .thumb
 {
     position: relative;
@@ -1210,16 +1220,13 @@ header .get_started_btn
 }
 
 
-.articles .article .title a
+.articles .article .title span
 {
     display: inline-block;
 
     max-width: 220px;
 
     vertical-align: top;
-    text-decoration: none;
-
-    color: currentColor;
 }
 
 
